@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.Timer;
+import javax.swing.WindowConstants;
 
 public class FlappyBird implements ActionListener, MouseListener, KeyListener {
 
@@ -40,7 +41,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener {
         rand = new Random();
 
         jframe.add(renderer);
-        jframe.setDefaultCloseOperation(jframe.EXIT_ON_CLOSE);
+        jframe.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jframe.setSize(WIDTH, HEIGHT);
         jframe.addMouseListener(this);
         jframe.addKeyListener(this);

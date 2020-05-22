@@ -1,7 +1,3 @@
-# java-game-flappy-bird
-
-Space or Click to Jump.
-
 # Flappy Bird Skill & Reaction Game
 
 ### An object-oriented and GUI based Java game. Click or press the space bar to make the player controlled bird jump. The bird moce automatically and must avoid all obstacles, to gain points, (basic flappy bird game).
